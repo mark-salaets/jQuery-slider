@@ -1,0 +1,35 @@
+#slider {
+    position: relative;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+}
+#slider ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+#prev {
+  position:absolute;
+  top:100px;
+  left:50px;
+}
+#next {
+  position:absolute;
+  top:100px;
+  right:50px;
+}
+#next:hover, #prev:hover {
+  background-color: rgba(63, 75, 57, 0.2);
+}
+
+#prev, #next {
+  background-color: rgba(63, 75, 57, 0);
+  font-size: 36px;
+}
+
+.buttons{
+  margin: 5px auto;
+  width: 100px;
+}
